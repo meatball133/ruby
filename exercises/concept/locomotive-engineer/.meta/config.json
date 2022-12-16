@@ -1,0 +1,20 @@
+{
+  "authors": [
+    "meatball133",
+    "kotp"
+  ],
+  "files": {
+    "solution": [
+      "locomotive_engineer.rb"
+    ],
+    "test": [
+      "locomotive_engineer_test.rb"
+    ],
+    "exemplar": [
+      ".meta/exemplar.rb"
+    ]
+  },
+  "icon": "logs-logs-logs",
+  "blurb": "Learn about strings by processing logs.",
+  "forkfrom": "python/locomotive-engineer"
+}
