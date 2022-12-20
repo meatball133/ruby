@@ -14,7 +14,7 @@
       ".meta/exemplar.rb"
     ]
   },
-  "icon": "logs-logs-logs",
-  "blurb": "Learn about strings by processing logs.",
-  "forkfrom": "python/locomotive-engineer"
+  "icon": "tracks-on-tracks-on-tracks",
+  "blurb": "Learn about decomposition and multiple assignment in Ruby while helping Linus with his train control system.",
+  "forked_from": ["python/locomotive-engineer"]
 }

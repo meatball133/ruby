@@ -2,34 +2,48 @@
 
 ## Goal
 
-The goal of this exercise is to teach the student the basics of the Concept of Strings in [Ruby][ruby-doc.org-string].
+This concept exercise is meant to teach an understanding/use of `decomposition` and the `*` (splat) and `**` (double splat) operators in Ruby.
+
+<br>
 
 ## Learning objectives
 
-- Know of the existence of the `String` object.
-- Know how to create a string.
-- Know of some basic string methods (like finding the index of a character at a position, or returning a part the string).
-- Know how to do basic string interpolation.
-
-## Out of scope
-
-- Using standard or custom format strings.
-- Memory and performance characteristics.
-- Strings can be a collection.
+- Understand/use `decomposition` through the use of splat operators (`*` and `**`) operators in various scenarios
+  - `*` and `**` as _prefixes_ ..... not to be confused with `*` (_multiply_) and `**` (_exponentiation_) as _infix_, or mathematical operators (**consider a link in the links doc or a mention in dig deeper.**)
+  - use in arguments to `functions`
+  - use in argument _capture_ for `functions` (_aka passing an arbitrary number of arguments -- *args * & \*\*kwargs_)
+  - use in `array` decomposition & construction
+  - use in `hash` decomposition & construction
+- Understand/use `decomposition` via `multiple assignment`
+  - using `multiple assignment ` in place of `indexing`
+  - using `multiple assignment` + `*` in place of `slicing`
+  - decomposition plus "leftovers" via `*`
+- Differences between straight `multiple assignment` and `*` & `**`
+- Deep decomposition
 
 ## Concepts
 
-The Concepts this exercise unlocks are:
+- `decomposition`
+- `splat operator`
+- `multiple assignment`
 
-- `strings-basic`: know of the existence of the `String` object; know of some basic functions (like looking up a character at a position, or slicing the string); know how to do basic string interpolation.
+## Topics that are Out of scope
 
 ## Prerequisites
 
-There are no prerequisites.
+- `basics`
+- `bools`
+- `nil`
+- `booleans`
+- `conditionals`
+- `arrays`
+- `enumeration`
+- `advanced enumeration`
+- `ostruct`
 
 ## Representer
 
-This exercise does not require any specific representation logic to be added to the [representer][representer].
+This exercise does not require any specific logic to be added to the [representer][representer]
 
 ## Analyzer
 
@@ -37,4 +51,3 @@ This exercise does not require any specific logic to be added to the [analyzer][
 
 [analyzer]: https://github.com/exercism/ruby-analyzer
 [representer]: https://github.com/exercism/ruby-representer
-[ruby-doc.org-string]: https://ruby-doc.org/core-2.7.0/String.html

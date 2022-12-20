@@ -2,24 +2,27 @@
 
 ## General
 
-- The [rubymostas strings guide][ruby-for-beginners.rubymonstas.org-strings] has a nice introduction to Ruby strings.
-- The `String` object has many useful [built-in methods][docs-string-methods].
+- To extract multiple arguments in the function parameters so can you pack them with the `*args` operator for `array` or `**kwargs` for keyword-based arguments.
+- To pack or unpack use the splat operators (`*` or `**`).
 
-## 1. Get message from a log line
+## 1. Create a array of all wagons
 
-- There are different ways to search for text in a string, which can be found on the [Ruby language official documentation][docs-string-methods].
-- There are [built in methods][strip-white-space] to strip white space.
+- Multiple arguments in the function parameters can be packed with the `*args` operator.
 
-## 2. Get log level from a log line
+## 2. Fix array of wagons
 
-- Ruby `String` objects have a [method][downcase] to perform this operation.
+- Using unpacking with the splat operator(`*`), lets you extract the first two elements of a `array` while keeping the rest intact.
+- To add another `array` into an existing `array`, you can use the splat operator(`*`) to "spread" the `array`.
 
-## 3. Reformat a log line
+## 3. Add missing stops
 
-- There are several ways to [concatenate strings][ruby-for-beginners.rubymonstas.org-strings], but the preferred one is usually [string interpolation][ruby-for-beginners.rubymonstas.org-strings]
+- Using `**kwargs` as a function parameter will allow an arbitrary amount of keyword arguments to be passed.
+- Using `**<hash>` as an argument will unpack a dictionary into keyword arguments.
+- You can put keyword arguments in a `{}`.
+- To get the values out of a dictionary, you can use the `<hash>.values` method.
 
-[ruby-for-beginners.rubymonstas.org-strings]: http://ruby-for-beginners.rubymonstas.org/built_in_classes/strings.html
-[ruby-for-beginners.rubymonstas.org-interpolation]: http://ruby-for-beginners.rubymonstas.org/bonus/string_interpolation.html
-[docs-string-methods]: https://ruby-doc.org/core-2.7.0/String.html
-[strip-white-space]: https://ruby-doc.org/core-2.7.0/String.html#method-i-strip
-[downcase]: https://ruby-doc.org/core-2.7.0/String.html#method-i-downcase
+## 4. Extend routing information
+
+- Using `**<hash>` as an argument will unpack a dictionary into keyword arguments.
+- You can put keyword arguments in a `{}`.
+
