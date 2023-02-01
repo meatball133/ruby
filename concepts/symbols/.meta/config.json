@@ -1,5 +1,5 @@
 {
-  "blurb": "In Ruby, nil is used to express the absence of an object.",
+  "blurb": "Symbols in Ruby is a datatype that holds an identifier. It is used to represent method names, variable names, and any other identifier in Ruby. This is a quick guide to using symbols in Ruby.",
   "authors": ["meatball133"],
   "contributors": []
 }
